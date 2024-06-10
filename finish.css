@@ -1,0 +1,27 @@
+body{
+    background-color: #FFEA0C;
+}
+.table{
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 1);
+    background-color: aliceblue;
+    width: 300px;
+    
+}
+.celulaimc{
+ background-color: #FF9F00;
+ animation: piscarkk 5s infinite;
+ color: white;
+}
+ @keyframes piscarkk{
+     0%{color: #FF0007;}
+     25%{color: #52FF00;}
+     50%{color: #00FFA3;}
+     75%{color:#0023FF;}
+     95%{color: #C300FF;}
+     100%{color:#FF004D;}
+ }  
+    
+.title{
+   background-color: aliceblue;
+   box-shadow: 5px 5px 0px rgb(0, 0, 0); 
+}
