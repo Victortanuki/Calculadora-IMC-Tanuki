@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>calculadora de imc tanuki</title>
+        <link rel="stylesheet" href="main.css" type="text/css"/>
+    </head>
+    <body>
+     <div class="infos">
+          <h1 style="font-size:40px;"><b>Calculadora De IMC</br></h1> 
+     <p>Que tal fornecer alguns dados?(não obrigatório)</p>
+         <form method="get" accept-charset="utf-8">
+             <label for="nm">Informe seu nome:</label>
+             <input placeholder="nome"type="text" id="nm"/>
+             <br /> <br/>
+             <label for="sx">Informe seu sexo</label>
+             <select name="sx" id="sx">
+               <option>masculino</option>
+               <option>feminino</option>
+             </select>
+            <br /><br />
+             <label for="idd">Informe sua idade</label>
+             <select id="idd"name="idd" id="idd">
+                <option>até 18 anos</option>
+                <option>de 19 a 30 anos</option>
+                <option>de 31 a 60 anos</option>
+                <option>mais de 60 anos</option>
+             </select>
+             <hr/>
+             <h4>Agora o principal!</h4>
+             <label for="peso">Informe seu peso: </label>
+             <input id="peso" type="number" placeholder="em kg(ex: 80)"/>
+             <br /><br />
+             <label for="altura">Informe sua altura: </label>
+             <input type="number" id="altura" placeholder="em metros (ex: 1.80)"/>
+             <br /><br />
+             <button type="button" onclick="calcular()" class="calcbtn"><b>Calcular</b></button>
+         </form>
+     </div>
+     <script src="main.js"></script>
+    </body>
+</html>
