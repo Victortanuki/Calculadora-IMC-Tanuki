@@ -1,0 +1,44 @@
+/*to seguindo  estilo web neubrutalism pq sim e fds*/
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #FFEA0C;
+    font-family: Arial;
+}
+.intro{
+background-color: aliceblue;
+border-color: black;
+border-style: solid;
+border-radius: 5px;
+box-shadow: 5px 5px 0px rgb(0, 0, 0);
+height: 300px;
+width: 700px;
+font-size: 15px;
+text-align: center;
+animation: entrada 1s forwards;
+}
+.enterbtn{
+    box-shadow: 5px 5px 0px rgb(0, 0, 0);
+    background-color: #C294FF;
+    border-style:solid;
+    border-radius:5px;
+    border-color: black;
+    width: 300px;
+    height:40px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    
+}
+.enterbtn:hover{
+    background-color: #6F0096;
+}
+@keyframes entrada{
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+}
