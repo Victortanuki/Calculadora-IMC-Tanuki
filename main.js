@@ -19,7 +19,7 @@ function calcular() {
 
     imc = peso / (altura ** 2)
 localStorage.setItem('imc', imc)
-    window.location.href = '../finish/finish.html'
+    window.location.href = 'finish.html'
 
 }
 
