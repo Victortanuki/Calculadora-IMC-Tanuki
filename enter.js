@@ -1,3 +1,3 @@
 function mainpage(){
-    window.location.href = 'main/main.html'
+    window.location.href = '/main.html'
 }
